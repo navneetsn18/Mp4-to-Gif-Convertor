@@ -2,6 +2,7 @@
 import imageio,os
 from tqdm.auto import tqdm
 
+print("Welcome to the Mp4 to Gif Convertor")
 def gifConvertor(inputPath):
     targetFormat=".gif"
     outputPath=os.path.splitext(inputPath)[0]+targetFormat
